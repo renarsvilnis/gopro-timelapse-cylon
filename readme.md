@@ -8,6 +8,11 @@
 gort arduino install
 ```
 
+### Running the app
+```bash
+# Run the application
+node index.js
+```
 
 ### Uploading
 ```bash
@@ -20,3 +25,8 @@ gort scan serial
 gort arduino upload firmadata /dev/tty.usbmodem14421
 ```
 
+
+### TODO
+- [ ] Create class that wraps servo management removing redundancy code
+- [ ] Add build scrips in npm package
+- [ ] Fill `package.json`
