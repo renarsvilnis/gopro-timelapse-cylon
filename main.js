@@ -2,17 +2,17 @@ var Cylon = require('cylon');
 
 var config = {
   pan: {
-    start: 40,
-    end: 120,
-    duration: 5 * 60
-    // duration: 5
+    start: 60,
+    end: 100,
+    duration: 30 * 60
+    // duration: 30
   },
 
   tilt: {
-    start: 30,
+    start: 15,
     end: 0,
-    duration: 5 * 60
-    // duration: 5
+    duration: 30 * 60
+    // duration: 10
   }
 };
 
@@ -20,7 +20,7 @@ Cylon.robot({
   connections: {
     arduino: {
       adaptor: 'firmata',
-      port: '/dev/tty.usbmodem14421'
+      port: '/dev/tty.usbmodem1411'
       // port: '/dev/ttyACM0'
     }
   },
